@@ -22,7 +22,7 @@ class Producto extends Component {
                 <h5>{producto.name}</h5>
                 <p>${producto.price}</p>
                 <Button onClick={() => agregarAlCarro(producto)}>
-                    Lo quiero!
+                    Agregar al Carro
                 </Button>
             </div>
         )

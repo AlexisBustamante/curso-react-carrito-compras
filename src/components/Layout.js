@@ -7,6 +7,7 @@ const syltes = {
         alignItems: 'center',
         display: 'flex',
         flexDirection: 'column',
+        padding: '20px',
     },
     container: {
         width: '100%'

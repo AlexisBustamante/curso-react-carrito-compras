@@ -12,12 +12,12 @@ const styles = {
 
 class Productos extends Component {
     render() {
-        const { productos } = this.props
+        const { productos, agregarAlCarro } = this.props
         return (
             <div style={styles.productos}>
                 {productos.map(producto =>
                     <Producto
-                        agregarAlCarro={() => console.log('nohacenah')}
+                        agregarAlCarro={agregarAlCarro}
                         key={producto.name}
                         producto={producto}
                     />
